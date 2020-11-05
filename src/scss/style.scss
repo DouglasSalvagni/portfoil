@@ -1,0 +1,84 @@
+@import '~bootstrap';
+@import './myVariables';
+
+body {
+    font-family: $poppins;
+    background-color: $pWhite;
+}
+
+
+//Thypograthy//
+
+.fRoboto {
+    font-family: $roboto;
+}
+
+.fLexendDeca {
+    font-family: $lexendDeca;
+}
+
+p {
+    letter-spacing: 0.75px;
+    font-size: 14px;
+}
+
+//CARD--Bootstrap overwrite//
+
+@include media-breakpoint-up(sm) {
+    .card-columns .card {
+        width: 95% !important;
+    }
+}
+
+
+////
+
+
+header {
+
+    .logo {
+        img {
+            width: 100%;
+            max-width: 914px;
+        }
+    }
+
+    .presentation {
+        max-width: 500px;
+
+        h2 {
+            font-size: 48px;
+            line-height: 53.5px;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+footer {
+
+    .findMe {
+
+        color: $pWhite;
+
+        ul {
+
+            padding: 0;
+            li {
+                list-style: none;
+                
+                a {
+                    color: $pWhite;
+                }
+
+                a:hover {
+                    color: $cyan;
+                    text-decoration: none;
+                }
+            }
+        } 
+    }
+
+    .minLogo img {
+        height: 100%;
+    }
+}
