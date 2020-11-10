@@ -10,4 +10,5 @@ import './assets/screens/filmaria.jpg';
 import './assets/screens/dougflix.jpg';
 import './assets/screens/webpack.png';
 import './assets/screens/node-mysql.jpeg';
+import './assets/screens/redux-flow.jpg';
 import {iconDom, iconLibrary} from './icons';

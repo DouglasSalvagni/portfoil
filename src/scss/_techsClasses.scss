@@ -1,0 +1,40 @@
+.higlight {
+    padding: 0 4px;
+}
+
+.react {
+    @extend .higlight;
+    background: $react2;
+    color: $react1;
+}
+
+.firebase {
+    @extend .higlight;
+    background: $firebase1;
+    color: $firebase2;
+}
+
+.webpack {
+    @extend .higlight;
+    background: $webpack1;
+    color: $webpack2;
+}
+
+.redux {
+    @extend .higlight;
+    background: $redux;
+    color: $pWhite;
+}
+
+.mysql {
+    @extend .higlight;
+    background: $mysql1;
+    color: $mysql2;
+}
+
+.nodejs {
+    @extend .higlight;
+    background: $nodejs1;
+    color: $nodejs2;
+}
+
