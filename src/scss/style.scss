@@ -1,6 +1,6 @@
 @import '~bootstrap';
 @import './myVariables';
-@import './techsClasses';
+@import './techFlags';
 
 body {
     font-family: $poppins;
@@ -48,7 +48,7 @@ header {
         max-width: 500px;
 
         h2 {
-            font-size: 48px;
+            font-size: 52px;
             line-height: 53.5px;
             letter-spacing: 1px;
         }
