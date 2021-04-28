@@ -11,4 +11,5 @@ import './assets/screens/dougflix.jpg';
 import './assets/screens/webpack.png';
 import './assets/screens/node-mysql.jpeg';
 import './assets/screens/redux-flow.jpg';
+import './assets/screens/call_system.png';
 import {iconDom, iconLibrary} from './icons';
